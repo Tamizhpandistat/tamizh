@@ -15,3 +15,12 @@ class BankAccount:
             print(f"Rs.{depositAmount} is Withdrawan . Now,  Yours New Bank Balance :Rs.{self.balance}")
         else:
             print(f"{self.name} . Your withdraw Amount is Insufficient Amount for withdrawn")
+
+tamizh = BankAccount("tamizh",1000)
+pandi = BankAccount("pandi",2000)
+tamizh.getBalance()
+tamizh.deposit(2000)
+tamizh.withdraw(3001)
+pandi.getBalance()
+pandi.deposit(1000)
+pandi.withdraw(2000)
